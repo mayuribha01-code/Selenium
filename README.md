@@ -9,31 +9,29 @@ This project is a basic web automation script using Python and Selenium. It open
 **Requirements**
 Python 3.x
 Google Chrome browser
-ChromeDriver (compatible with your Chrome version)
+ChromeDriver
 Selenium library
 
 **Installation**
 Install Selenium:
-
-**cmd **:- pip install selenium
-
-Download ChromeDriver and add it to your system PATH.
+**cmd ** :- pip install selenium
 
 **How It Works**
-Opens Amazon website
-Maximizes browser window
-Searches for "iphones"
-Waits for search results to load
-Extracts product titles
-Prints number of products and their names
-Closes the browser
-Run the Script
-python your_script_name.py
+1. Opens Amazon website
+2. Maximizes browser window
+3. Searches for "iphones"
+4. Waits for search results to load
+5. Extracts product titles
+6. Prints number of products and their names
+7. Closes the browser
+8. Run the Script
+9. python your_script_name.py
 
 **Output**
 Total number of products found
 List of product titles printed in terminal
-Notes
+
+**Notes**
 Make sure ChromeDriver version matches your Chrome browser
 Internet connection is required
 Amazon page structure may change, which can affect the script
